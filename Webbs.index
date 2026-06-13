@@ -11,8 +11,7 @@
   </info>
   <files>
 
- <!-- RACE -->
-    <file name="source.xml" url="http://hosting.com/files/source.xml" />
-    <file name="items.xml" url="http://hosting.com/files/items.xml" />
+    <file name="race-Hadozee.xml" url="http://hosting.com/files/source.xml" />
+    <file name="spells.xml" url="http://hosting.com/files/items.xml" />
   </files>
 </index>
