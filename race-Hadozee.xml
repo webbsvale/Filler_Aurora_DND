@@ -35,7 +35,7 @@
             <set name="weight" modifier="2d4">60 lb.</set>
         </setters>
         <rules>
-            <select type="Racial Trait" name="Ability Score Increase (Hadozee)" supports="Hadozee" numb	er="1" />
+            <select type="Racial Trait" name="Ability Score Increase (Hadozee)" supports="Hadozee" number="1" />
             <select type="Racial Trait" name="Ability Score Increase (Hadozee)" supports="Hadozee" number="1" />
             <select type="Racial Trait" name="Ability Score Increase (Hadozee)" supports="Hadozee" number="1" />
             <grant type="Size" id="ID_SIZE_SMALL" />
