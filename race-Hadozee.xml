@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Hadozee</name>
+        <author>Spelljammer</author>
+        <update version="0.0.1">
+            <file name="race-Hadozee.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-unearthed-arcana/dark-arts-players-companion/race-mummy.xml" />
+        </update>
+    </info>
+    
+    <element name="Hadozee" type="Race" source="WebbsSource" id="ID_RACE_HADOZEE">
+        <description>
+            <p> Hadozees’ progenitors were mammals no bigger than housecats. Hunted by larger natural predators, they took to the trees and evolved wing-like flaps that enabled them to glide from branch to branch. Today, Hadozees are sapient, bipedal beings eager to leave behind the fearsome predators of their homeworld and explore other worlds. 
+            
+            <h4>HADOZEE TRAITS</h4>
+            <p>In addition to being natural climbers, Hadozees have feet that are as dexterous as their hands, even to the extent of having opposable thumbs. Membranes of skin hang loosely from their arms and legs. When stretched taut, these membranes enable Hadozees to glide. Hadozees wrap these wings around themselves to keep warm.</p>
+                <span class="feature">Ability Score Increase.</span>Choose one ability score to increase by 2, and increase a second ability score by 1, or increase three different scores by 1.<br />
+                <span class="feature">Alignment.</span> You are a monkey. Go figure.<br />
+                <span class="feature">Size.</span>You are small or medium. You chose this size when you select this race<br />
+                <span class="feature">Speed.</span>Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed. <br />        
+                <span class="feature">Dexterous Feet</span>As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a tiny object<br />
+                <span class="feature">Glide</span>When you fall at least 10 feet above the ground, you can use your reaction to extend your skin membranes to glide horizontally a number of feet equal to your walking speed horizontally, and you take 0 damage from the fall. You determine the direction of the glide.<br />
+                <span class="feature">Hadozee Dodge</span>The magic that runs your veins heightens your natural defences. When you take damage, you can use your reaction to roll a d6. Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage). You can use this trait a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.<br />
+                <span class="feature">Languages.</span>You can speak, read, and write Common and one other language you and your DM agree is appropriate.<br />      
+            </p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <setters>
+            <set name="names" type="male"></set>
+            <set name="names" type="female"></set>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d6">3’0"</set>
+            <set name="weight" modifier="2d4">60 lb.</set>
+        </setters>
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase (Hadozee)" supports="Hadozee" numb	er="1" />
+            <select type="Racial Trait" name="Ability Score Increase (Hadozee)" supports="Hadozee" number="1" />
+            <select type="Racial Trait" name="Ability Score Increase (Hadozee)" supports="Hadozee" number="1" />
+            <grant type="Size" id="ID_SIZE_SMALL" />
+            <stat name="innate speed" value="30" bonus="base" />
+	          <stat name="climbing speed" value="30" bonus="base" />
+            <grant type="Racial Trait" id="ID_WEBBSOURCE_RACIAL_TRAIT_HADOZEE_DEXTEROUS_FEET" />
+            <grant type="Racial Trait" id="ID_WEBBSOURCE_RACIAL_TRAIT_HADOZEE_GLIDE" />
+            <grant type="Racial Trait" id="ID_WEBBSOURCE_RACIAL_TRAIT_HADOZEE_HADOZEE_DODGE" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language (Hadozee)" />
+        </rules>
+    </element>
+</elements>

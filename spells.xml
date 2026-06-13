@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<elements>
+    <info>
+        <name>Spells</name>
+    <description> Contains every DM's favourite spell</description>
+    <author> Strixhaven: Curriculum of Chaos</author>
+    <update version="0.0.1">
+      <file name="spells.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/spells.xml" />
+    </update>
+    </info>
+        
+    <element name="Silvery Barbs" type="Spell" source="Strixhaven: A curriculum of Chaos" id="ID_WEBBSOURCE_SPELL_SILVERY_BARBS">
+        <supports>Bard, Sorcerer, Wizard </supports>
+        <description>
+            <p>You magically distract the triggering creature and turn its momentary uncertianty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll. </br>
+
+            You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time
+            </p>
+            
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Enchantment</set>
+            <set name="time"> 1 reaction </set>
+            <set name="duration"> Instantaneous</set>
+            <set name="range"> 60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+</elements>

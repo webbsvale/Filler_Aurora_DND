@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TO ANY UNFORTUNATE VIEWERS, I DON'T KNOW WHAT I'M DOING -->
+
+<index>
+  <info>
+    <update version="2.0">
+      <file name="Webbs.index" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/Webbs.index" />
+    </update>
+  </info>
+  <files>
+
+    <file name="race-Hadozee.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/race-Hadozee.xml" />
+    <file name="spells.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/spells.xml" />
+  </files>
+</index>
