@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TO ANY UNFORTUNATE VIEWERS, I DON'T KNOW WHAT I'M DOING -->
+
+<index>
+  <info>
+    <update version="1.0">
+    <!-- CONFIRM CORRECT LINK AND URL -->
+      <file name="Webbs.index" url="http://hosting.com/files/Webbs.index" />
+    </update>
+  </info>
+  <files>
+
+ <!-- RACE -->
+    <file name="source.xml" url="http://hosting.com/files/source.xml" />
+    <file name="items.xml" url="http://hosting.com/files/items.xml" />
+  </files>
+</index>
