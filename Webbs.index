@@ -4,14 +4,13 @@
 
 <index>
   <info>
-    <update version="1.0">
-    <!-- CONFIRM CORRECT LINK AND URL -->
-      <file name="Webbs.index" url="http://hosting.com/files/Webbs.index" />
+    <update version="2.0">
+      <file name="Webbs.index" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/Webbs.index" />
     </update>
   </info>
   <files>
 
-    <file name="race-Hadozee.xml" url="http://hosting.com/files/source.xml" />
-    <file name="spells.xml" url="http://hosting.com/files/items.xml" />
+    <file name="race-Hadozee.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/race-Hadozee.xml" />
+    <file name="spells.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/spells.xml" />
   </files>
 </index>
