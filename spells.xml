@@ -6,7 +6,7 @@
     <description> Contains every DM's favourite spell</description>
     <author> Strixhaven: Curriculum of Chaos</author>
     <update version="0.0.1">
-      <file name="spells.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/spells.xml" />
+      <file name="spells.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/main/spells.xml" />
     </update>
     </info>
         
