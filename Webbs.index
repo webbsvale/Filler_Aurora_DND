@@ -5,12 +5,12 @@
 <index>
   <info>
     <update version="2.0">
-      <file name="Webbs.index" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/Webbs.index" />
+      <file name="Webbs.index" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/main/Webbs.index" />
     </update>
   </info>
   <files>
 
-    <file name="race-Hadozee.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/race-Hadozee.xml" />
-    <file name="spells.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/webbsvale-patch-1/spells.xml" />
+    <file name="race-Hadozee.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/main/race-Hadozee.xml" />
+    <file name="spells.xml" url="https://raw.githubusercontent.com/webbsvale/Filler_Aurora_DND/refs/heads/main/spells.xml" />
   </files>
 </index>
